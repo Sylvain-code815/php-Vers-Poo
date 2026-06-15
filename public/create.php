@@ -1,17 +1,25 @@
 <?php
-require_once __DIR__ . '/../src/ResourceRepository.php';
-require_once __DIR__ . '/../src/Validator.php';
+
+use Parad\PhpPoo\Resource;
+use Parad\PhpPoo\Validator;
+
+require __DIR__ . '/../bootstrap.php';
+
+$errors = [];
+$data = [];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $errors = Validator::validate($_POST);
+    $data = $_POST;
+    $errors = Validator::validate($data);
 
     if (empty($errors)) {
-        $resource = new Resource($_POST);
+        $resource = Resource::fromArray($data);
 
-        $repository = new ResourceRepository();
         if ($repository->create($resource)) {
             header('Location: index.php');
             exit;
         }
     }
 }
+
+require __DIR__ . '/../views/partials/create.view.php';

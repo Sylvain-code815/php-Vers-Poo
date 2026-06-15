@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c42bb86-f59b-448e-bb41-bfe831630176" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP-POO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+    <list default="true" id="1c42bb86-f59b-448e-bb41-bfe831630176" name="Changes" comment="First commit on PHP to PHP POO">
+      <change afterPath="$PROJECT_DIR$/views/partials/edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resource.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResourceRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResourceRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partial/index.view.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sylvain-code815&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sylvain-code815/php-Vers-Poo.git&quot;,
+    &quot;accountId&quot;: &quot;7225dc88-bc16-477a-b79e-dfb01abdc3cc&quot;
+  }
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -62,21 +80,6 @@
       <recent name="C:\Users\Parad\Desktop\Informatique\Exercices\PHP-POO\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,11 +95,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781514615823</updated>
-      <workItem from="1781514617078" duration="5979000" />
+      <workItem from="1781514617078" duration="7388000" />
+      <workItem from="1781524973021" duration="769000" />
+      <workItem from="1781525935207" duration="7776000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit on PHP to PHP POO">
+      <option name="closed" value="true" />
+      <created>1781523540899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781523540899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit on PHP to PHP POO" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit on PHP to PHP POO" />
   </component>
 </project>

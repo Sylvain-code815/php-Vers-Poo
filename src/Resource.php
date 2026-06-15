@@ -1,23 +1,32 @@
 <?php
+
+namespace Parad\PhpPoo;
+
 class Resource
 {
-    public function __construct(
-        public readonly ?int $id,
-        public readonly string $title,
-        public readonly string $type,
-        public readonly string $status,
-        public readonly ?string $borrower = null,
-) {}
+    public $id;
+    public $title;
+    public $type;
+    public $status;
+    public $borrower;
+
+    public function __construct($id, $title, $type, $status, $borrower = null)
+    {
+        $this->id = $id;
+        $this->title = $title;
+        $this->type = $type;
+        $this->status = $status;
+        $this->borrower = $borrower;
+    }
+
     public static function fromArray(array $data): self
     {
         return new self(
-            isset($data['id']) ? (int)$data['id'] : null,
+            isset($data['id']) ? (int) $data['id'] : null,
             trim($data['title'] ?? ''),
             trim($data['type'] ?? ''),
             $data['status'] ?? 'disponible',
-            trim($data['borrower'] ?? '') ?: null,
-);
+            trim($data['borrower'] ?? '') ?: null
+        );
     }
 }
-$r = Resource::fromArray($dbRow);
-echo $r->title;
